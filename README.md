@@ -1,7 +1,7 @@
 # KickNoSub 🎥
 
-KickNoSub is a simple command-line tool that extracts the **direct stream URL** from Kick VODs (subscriber-only).  
-It allows you to get the `.m3u8` playlist link in your preferred quality and use it with media players or downloaders.  
+KickNoSub is a simple command-line tool that demonstrates how to extract **direct stream URLs** from Kick VODs.  
+It is designed purely for **educational and research purposes**, showing how Kick video metadata and streaming formats can be parsed programmatically.  
 
 ## 🚀 Features
 - Input a Kick video URL  
@@ -12,7 +12,7 @@ It allows you to get the `.m3u8` playlist link in your preferred quality and use
   - 360p30  
   - 160p30  
 - Outputs the **raw stream URL**  
-- Works with **VLC**, **FFmpeg**, or any HLS-compatible player  
+- Example use with **VLC**, **FFmpeg**, or other HLS-compatible players  
 
 ## 📦 Installation
 
@@ -42,14 +42,14 @@ python kicknosub.py
 Example:
 ```
 Enter the Kick video URL: https://kick.com/somechannel/video/abcdef
-? Choose video quality: 1080p60
+? Choose video quality:  1080p60
 ```
 
 Output:
 ```
 ✅ Stream URL found!
 
-https://stream.kick.com/.../playlist.m3u8
+https://stream.kick.com/...../playlist.m3u8
 ```
 
 ## 🎯 Examples
@@ -72,9 +72,22 @@ KickNoSub/
 └── README.md          # Documentation
 ```
 
-## ⚠️ Disclaimer
-This tool is for **educational purposes only**.  
-Please respect content creators and Kick’s **Terms of Service** before using it.  
+## ⚠️ Legal Disclaimer
+This project is provided strictly **for educational, research, and personal learning purposes only**.  
+
+KickNoSub is a demonstration of how public metadata and stream information can be programmatically accessed from Kick’s platform.  
+It is **not designed or intended** to:
+- Circumvent subscriber-only restrictions or paywalls.  
+- Facilitate piracy, redistribution, or unauthorized downloading of content.  
+- Be used in any way that violates [Kick Terms of Service](https://kick.com/terms-of-service) or applicable laws.  
+
+By using this project, you agree that:
+- You are solely responsible for your actions and any consequences that result.  
+- The authors and contributors assume **no liability** for misuse of this tool.  
+- You will comply with all relevant laws, regulations, and platform rules.  
+
+If you enjoy content on Kick, please support the creators by subscribing and engaging through the official platform.  
+
 
 ## 📜 License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
