@@ -88,6 +88,8 @@ By using this project, you agree that:
 
 If you enjoy content on Kick, please support the creators by subscribing and engaging through the official platform.  
 
+## 🙌 Support
+If you find KickNoSub useful, consider giving the project a ⭐ on GitHub!
 
 ## 📜 License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
